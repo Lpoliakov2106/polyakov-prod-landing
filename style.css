@@ -542,7 +542,7 @@ a:hover { color: var(--accent-hover); }
     .hero__stats { gap: 24px; flex-wrap: wrap; }
     .hero__actions { flex-direction: column; align-items: center; }
 
-    .cases__grid { grid-template-columns: 1fr; }
+    .cases__grid { grid-template-columns: 1fr !important; }
     .services__grid { grid-template-columns: 1fr; }
     .about__facts { grid-template-columns: 1fr; }
 
