@@ -25,7 +25,7 @@ document.getElementById('contactForm')?.addEventListener('submit', async (e) => 
     const text = encodeURIComponent(
         `Заявка с сайта Поляков.prod\n\nИмя: ${name}\nКонтакт: ${contact}\n${message ? 'Задача: ' + message : ''}`
     );
-    window.open(`https://t.me/polyakov_dev?text=${text}`, '_blank');
+    window.open(`https://t.me/leonid_prod?text=${text}`, '_blank');
 
     btn.textContent = 'Отправлено!';
     btn.disabled = true;
