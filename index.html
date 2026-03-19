@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поляков.prod — Цифровые продукты для бизнеса</title>
+    <meta name="description" content="SaaS-платформы, Telegram-боты, веб-приложения, AI-интеграции. Один разработчик — быстрее студии. Леонид Поляков.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__logo">Поляков<span class="accent">.prod</span></div>
+            <nav class="header__nav">
+                <a href="#cases">Кейсы</a>
+                <a href="#services">Услуги</a>
+                <a href="#about">Обо мне</a>
+                <a href="#contact" class="btn btn--sm">Обсудить проект</a>
+            </nav>
+            <button class="header__burger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <div class="hero__badge">Открыт для заказов</div>
+                <h1>Цифровые продукты<br>для бизнеса</h1>
+                <p class="hero__subtitle">SaaS-платформы, боты, веб-приложения, AI-интеграции.<br>Один разработчик. Быстрее студии. Дешевле агентства.</p>
+                <div class="hero__actions">
+                    <a href="#contact" class="btn btn--primary">Обсудить проект</a>
+                    <a href="#cases" class="btn btn--ghost">Смотреть кейсы</a>
+                </div>
+                <div class="hero__stats">
+                    <div class="stat">
+                        <span class="stat__number">1-2</span>
+                        <span class="stat__label">недели на проект</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number">70k+</span>
+                        <span class="stat__label">средний чек</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number">0</span>
+                        <span class="stat__label">менеджеров между нами</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cases -->
+    <section class="cases" id="cases">
+        <div class="container">
+            <h2>Кейсы</h2>
+            <div class="cases__grid">
+                <div class="case-card">
+                    <div class="case-card__tag">SaaS-платформа</div>
+                    <h3>AI Chat Platform</h3>
+                    <p>Полноценный аналог ChatGPT с бесплатным доступом, рекламной монетизацией и платными подписками. Оплата через ЮKassa (карта + СБП).</p>
+                    <ul class="case-card__features">
+                        <li>5 тарифных планов с автопродлением</li>
+                        <li>Стриминг AI-ответов, история диалогов</li>
+                        <li>Рекламная система + админ-панель</li>
+                        <li>20+ API-эндпоинтов</li>
+                    </ul>
+                    <div class="case-card__meta">
+                        <span>Next.js + Fastify + PostgreSQL + Redis + Docker</span>
+                    </div>
+                    <div class="case-card__footer">
+                        <div class="case-card__stat">
+                            <strong>2 недели</strong>
+                            <span>разработка</span>
+                        </div>
+                        <div class="case-card__stat">
+                            <strong>70 000 &#8381;</strong>
+                            <span>бюджет</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="case-card">
+                    <div class="case-card__tag">Telegram-бот</div>
+                    <h3>Forum Bot</h3>
+                    <p>Бот для управления форумом на 300 участников: верификация через Timepad, голосования, жюри, Random Coffee, вопросы спикерам.</p>
+                    <ul class="case-card__features">
+                        <li>3 блока голосований + 2 группы жюри</li>
+                        <li>Random Coffee с алгоритмом подбора пар</li>
+                        <li>Google Sheets (18 листов) как база</li>
+                        <li>64 теста, graceful shutdown, recovery</li>
+                    </ul>
+                    <div class="case-card__meta">
+                        <span>Python + aiogram 3 + Google Sheets API + SQLite</span>
+                    </div>
+                    <div class="case-card__footer">
+                        <div class="case-card__stat">
+                            <strong>10 дней</strong>
+                            <span>разработка</span>
+                        </div>
+                        <div class="case-card__stat">
+                            <strong>300</strong>
+                            <span>участников</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2>Услуги и цены</h2>
+            <p class="section-subtitle">Фиксированная цена. Фиксированный срок. Без сюрпризов.</p>
+            <div class="services__grid">
+                <div class="service-card">
+                    <div class="service-card__name">Старт</div>
+                    <div class="service-card__price">50-70k &#8381;</div>
+                    <ul>
+                        <li>Telegram-бот / лендинг / простое веб-приложение</li>
+                        <li>Базовый функционал</li>
+                        <li>1 месяц поддержки</li>
+                    </ul>
+                    <div class="service-card__time">3-5 дней</div>
+                    <a href="#contact" class="btn btn--outline">Заказать</a>
+                </div>
+
+                <div class="service-card service-card--featured">
+                    <div class="service-card__badge">Популярный</div>
+                    <div class="service-card__name">Бизнес</div>
+                    <div class="service-card__price">100-150k &#8381;</div>
+                    <div class="service-card__recurring">+ 15k &#8381;/мес поддержка</div>
+                    <ul>
+                        <li>Платформа / бот с интеграциями</li>
+                        <li>Админ-панель, оплата, аналитика</li>
+                        <li>CRM / Google Sheets интеграция</li>
+                        <li>3 месяца поддержки</li>
+                    </ul>
+                    <div class="service-card__time">5-7 дней</div>
+                    <a href="#contact" class="btn btn--primary">Заказать</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card__name">Платформа</div>
+                    <div class="service-card__price">200-350k &#8381;</div>
+                    <div class="service-card__recurring">+ 25k &#8381;/мес поддержка</div>
+                    <ul>
+                        <li>SaaS / marketplace / комплексная система</li>
+                        <li>Сайт + бот + интеграции + автоматизация</li>
+                        <li>AI-интеграция (опционально)</li>
+                        <li>6 месяцев поддержки</li>
+                    </ul>
+                    <div class="service-card__time">7-14 дней</div>
+                    <a href="#contact" class="btn btn--outline">Заказать</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about__content">
+                <h2>Обо мне</h2>
+                <div class="about__text">
+                    <p>Мне 17. Разрабатываю цифровые продукты для бизнеса: SaaS-платформы, Telegram-боты, веб-приложения, AI-интеграции.</p>
+                    <p>11 месяцев работал в продажах — закрыл сделок на 11 млн рублей. Понял, что интереснее строить продукты, чем продавать чужие.</p>
+                    <p>Поступаю в бизнес-школу СКОЛКОВО. Выиграл кейс-чемпионат ВШЭ. Организую клуб для абитуриентов СКОЛКОВО.</p>
+                </div>
+                <div class="about__facts">
+                    <div class="fact">
+                        <span class="fact__icon">&#9889;</span>
+                        <div>
+                            <strong>Скорость</strong>
+                            <p>Сложная платформа за 1-2 недели. Использую Claude Code для ускорения в 5-10 раз.</p>
+                        </div>
+                    </div>
+                    <div class="fact">
+                        <span class="fact__icon">&#128172;</span>
+                        <div>
+                            <strong>Прямая коммуникация</strong>
+                            <p>Без менеджеров и посредников. Вы общаетесь напрямую с разработчиком.</p>
+                        </div>
+                    </div>
+                    <div class="fact">
+                        <span class="fact__icon">&#128736;</span>
+                        <div>
+                            <strong>Полный стек</strong>
+                            <p>Frontend, backend, базы данных, API, деплой, AI — всё в одних руках.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact__content">
+                <h2>Обсудить проект</h2>
+                <p>Опишите задачу — отвечу в течение нескольких часов. Без обязательств.</p>
+                <div class="contact__channels">
+                    <a href="https://t.me/polyakov_dev" class="contact__link contact__link--tg" target="_blank" rel="noopener">
+                        Написать в Telegram
+                    </a>
+                    <a href="https://t.me/polyakov_prod" class="contact__link contact__link--channel" target="_blank" rel="noopener">
+                        Канал Поляков.prod
+                    </a>
+                </div>
+                <div class="contact__or">или оставьте заявку</div>
+                <form class="contact__form" id="contactForm">
+                    <input type="text" name="name" placeholder="Имя" required>
+                    <input type="text" name="contact" placeholder="Telegram / телефон / email" required>
+                    <textarea name="message" placeholder="Кратко опишите задачу" rows="3"></textarea>
+                    <button type="submit" class="btn btn--primary btn--full">Отправить заявку</button>
+                </form>
+                <p class="contact__note">50% предоплата, 50% по факту. Оплата по договору или на самозанятого.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__logo">Поляков<span class="accent">.prod</span></div>
+                <div class="footer__copy">&copy; 2026 Леонид Поляков</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
