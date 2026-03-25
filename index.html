@@ -5,6 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Поляков.prod — Цифровые продукты для бизнеса</title>
     <meta name="description" content="SaaS-платформы, Telegram-боты, веб-приложения, AI-интеграции. Один разработчик — быстрее студии. Леонид Поляков.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Поляков.prod — Цифровые продукты для бизнеса">
+    <meta property="og:description" content="SaaS-платформы, боты, веб-приложения, AI-интеграции. Один разработчик. Быстрее студии.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lpoliakov2106.github.io/polyakov-prod-landing/">
+    <meta property="og:locale" content="ru_RU">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Поляков.prod — Цифровые продукты для бизнеса">
+    <meta name="twitter:description" content="SaaS-платформы, боты, веб-приложения, AI-интеграции. Один разработчик. Быстрее студии.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Поляков.prod",
+        "description": "Цифровые продукты для бизнеса: SaaS-платформы, Telegram-боты, веб-приложения, AI-интеграции.",
+        "url": "https://lpoliakov2106.github.io/polyakov-prod-landing/",
+        "founder": {
+            "@type": "Person",
+            "name": "Леонид Поляков",
+            "jobTitle": "Full-stack разработчик"
+        },
+        "areaServed": "RU",
+        "serviceType": ["Web Development", "Bot Development", "AI Integration", "SaaS Development"]
+    }
+    </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -44,8 +78,8 @@
                         <span class="stat__label">недели на проект</span>
                     </div>
                     <div class="stat">
-                        <span class="stat__number">70k+</span>
-                        <span class="stat__label">средний чек</span>
+                        <span class="stat__number" data-count="4">0</span>
+                        <span class="stat__label">проекта в портфолио</span>
                     </div>
                     <div class="stat">
                         <span class="stat__number">0</span>
@@ -64,16 +98,13 @@
                 <div class="case-card">
                     <div class="case-card__tag">SaaS-платформа</div>
                     <h3>AI Chat Platform</h3>
-                    <p>Полноценный аналог ChatGPT с бесплатным доступом, рекламной монетизацией и платными подписками. Оплата через ЮKassa (карта + СБП).</p>
+                    <p>Полноценный аналог ChatGPT с бесплатным доступом, рекламной монетизацией и платными подписками. Приём оплаты картой и через СБП.</p>
                     <ul class="case-card__features">
-                        <li>5 тарифных планов с автопродлением</li>
-                        <li>Стриминг AI-ответов, история диалогов</li>
-                        <li>Рекламная система + админ-панель</li>
-                        <li>20+ API-эндпоинтов</li>
+                        <li>Гибкая система подписок — от бесплатного до премиум</li>
+                        <li>Мгновенные ответы AI с сохранением истории</li>
+                        <li>Встроенная монетизация и панель управления</li>
+                        <li>Готов к интеграции с внешними сервисами</li>
                     </ul>
-                    <div class="case-card__meta">
-                        <span>Next.js + Fastify + PostgreSQL + Redis + Docker</span>
-                    </div>
                     <div class="case-card__footer">
                         <div class="case-card__stat">
                             <strong>2 недели</strong>
@@ -84,21 +115,19 @@
                             <span>бюджет</span>
                         </div>
                     </div>
+                    <a href="#contact" class="case-card__cta">Обсудить похожий проект &rarr;</a>
                 </div>
 
                 <div class="case-card">
                     <div class="case-card__tag">Telegram-бот</div>
                     <h3>Forum Bot</h3>
-                    <p>Бот для управления форумом на 300 участников: верификация через Timepad, голосования, жюри, Random Coffee, вопросы спикерам.</p>
+                    <p>Бот для управления бизнес-форумом на 300 участников. Верификация через Timepad, голосования, жюри, AI-нетворкинг.</p>
                     <ul class="case-card__features">
-                        <li>3 блока голосований + 2 группы жюри</li>
-                        <li>Random Coffee с алгоритмом подбора пар</li>
-                        <li>Google Sheets (18 листов) как база</li>
-                        <li>64 теста, graceful shutdown, recovery</li>
+                        <li>Три формата голосований с результатами в реальном времени</li>
+                        <li>AI-нетворкинг — подбор собеседников по интересам</li>
+                        <li>Все данные доступны организатору в Google Sheets</li>
+                        <li>Автоматическое восстановление при сбоях</li>
                     </ul>
-                    <div class="case-card__meta">
-                        <span>Python + aiogram 3 + Google Sheets API + SQLite</span>
-                    </div>
                     <div class="case-card__footer">
                         <div class="case-card__stat">
                             <strong>10 дней</strong>
@@ -109,31 +138,30 @@
                             <span>участников</span>
                         </div>
                     </div>
+                    <a href="#contact" class="case-card__cta">Обсудить похожий проект &rarr;</a>
                 </div>
 
                 <div class="case-card">
                     <div class="case-card__tag">AI-ассистент</div>
                     <h3>Jarvis</h3>
-                    <p>Персональный AI-ассистент в Telegram на базе Claude. Текст, голос, фото, документы — всё через одного бота. Модульная архитектура.</p>
+                    <p>Персональный AI-ассистент в Telegram. Текст, голос, фото, документы — всё через одного бота. Мульти-агентная архитектура.</p>
                     <ul class="case-card__features">
-                        <li>Голосовые сообщения (Yandex SpeechKit)</li>
-                        <li>Умная память + напоминания</li>
-                        <li>Фоновые задачи до 15 минут</li>
-                        <li>Модульная система: 8 роутеров</li>
+                        <li>Понимает текст, голос, фото и документы</li>
+                        <li>Запоминает контекст и следит за дедлайнами</li>
+                        <li>7 специализированных AI-агентов внутри</li>
+                        <li>Работает 24/7 без перерывов</li>
                     </ul>
-                    <div class="case-card__meta">
-                        <span>Python + aiogram 3 + Claude API + SQLite + launchd</span>
-                    </div>
                     <div class="case-card__footer">
-                        <div class="case-card__stat">
-                            <strong>1 неделя</strong>
-                            <span>разработка</span>
-                        </div>
                         <div class="case-card__stat">
                             <strong>24/7</strong>
                             <span>работает</span>
                         </div>
+                        <div class="case-card__stat">
+                            <strong>7</strong>
+                            <span>AI-агентов</span>
+                        </div>
                     </div>
+                    <a href="#contact" class="case-card__cta">Обсудить похожий проект &rarr;</a>
                 </div>
 
                 <div class="case-card">
@@ -141,14 +169,11 @@
                     <h3>SpeakFlow</h3>
                     <p>Платформа для изучения английского с AI-разговорной практикой. 80% обучения — живые диалоги с AI вместо тестов и карточек.</p>
                     <ul class="case-card__features">
-                        <li>AI-разговоры на базе Claude API</li>
-                        <li>Уроки, словарь, произношение</li>
-                        <li>Авторизация (NextAuth.js)</li>
-                        <li>Задеплоена и работает</li>
+                        <li>Живые диалоги с AI вместо тестов и карточек</li>
+                        <li>Уроки, словарь, тренировка произношения</li>
+                        <li>Личный кабинет с прогрессом</li>
+                        <li>Работает прямо сейчас — можно попробовать</li>
                     </ul>
-                    <div class="case-card__meta">
-                        <span>Next.js 15 + React 19 + Prisma + Claude API + Tailwind</span>
-                    </div>
                     <div class="case-card__footer">
                         <div class="case-card__stat">
                             <strong>10 дней</strong>
@@ -158,6 +183,10 @@
                             <strong>Live</strong>
                             <span>в продакшене</span>
                         </div>
+                    </div>
+                    <div class="case-card__actions">
+                        <a href="https://speakflow-two.vercel.app" class="case-card__cta case-card__cta--accent" target="_blank" rel="noopener">Попробовать &rarr;</a>
+                        <a href="#contact" class="case-card__cta">Обсудить похожий проект &rarr;</a>
                     </div>
                 </div>
 
@@ -215,6 +244,30 @@
         </div>
     </section>
 
+    <!-- Process -->
+    <section class="process">
+        <div class="container">
+            <h2>Как это работает</h2>
+            <div class="process__grid">
+                <div class="process__step">
+                    <div class="process__number">1</div>
+                    <h3>Обсуждаем задачу</h3>
+                    <p>Расскажите, что нужно. Я оценю сроки и стоимость. Без долгих брифов — достаточно сообщения в Telegram.</p>
+                </div>
+                <div class="process__step">
+                    <div class="process__number">2</div>
+                    <h3>Собираю продукт</h3>
+                    <p>Ежедневно показываю прогресс. Вы видите результат с первых дней, а не через месяц.</p>
+                </div>
+                <div class="process__step">
+                    <div class="process__number">3</div>
+                    <h3>Запускаем</h3>
+                    <p>Продукт работает. Я на связи для доработок и поддержки по договору.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- About -->
     <section class="about" id="about">
         <div class="container">
@@ -223,7 +276,7 @@
                 <div class="about__text">
                     <p>Мне 17. Разрабатываю цифровые продукты для бизнеса: SaaS-платформы, Telegram-боты, веб-приложения, AI-интеграции.</p>
                     <p>11 месяцев работал в продажах — закрыл сделок на 11 млн рублей. Понял, что интереснее строить продукты, чем продавать чужие.</p>
-                    <p>Поступаю в бизнес-школу СКОЛКОВО. Выиграл кейс-чемпионат ВШЭ. Организую клуб для абитуриентов СКОЛКОВО.</p>
+                    <p>Поступаю в бизнес-бакалавриат СКОЛКОВО. Выиграл кейс-чемпионат ВШЭ. Организую клуб для абитуриентов СКОЛКОВО.</p>
                 </div>
                 <div class="about__facts">
                     <div class="fact">
@@ -267,9 +320,9 @@
                     </a>
                 </div>
                 <div class="contact__or">или оставьте заявку</div>
-                <form class="contact__form" id="contactForm">
-                    <input type="text" name="name" placeholder="Имя" required>
-                    <input type="text" name="contact" placeholder="Telegram / телефон / email" required>
+                <form class="contact__form" id="contactForm" novalidate>
+                    <input type="text" name="name" placeholder="Имя" required autocomplete="name">
+                    <input type="text" name="contact" placeholder="Telegram / телефон / email" required autocomplete="email">
                     <textarea name="message" placeholder="Кратко опишите задачу" rows="3"></textarea>
                     <button type="submit" class="btn btn--primary btn--full">Отправить заявку</button>
                 </form>

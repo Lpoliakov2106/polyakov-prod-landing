@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lpoliakov2106.github.io/polyakov-prod-landing/sitemap.xml
